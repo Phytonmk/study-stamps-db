@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/phytonmk/.nvm/versions/node/v12.18.1/bin/node /Users/phytonmk/.nvm/versions/node/v12.18.1/bin/yarn init
+
+PATH: 
+  /Users/phytonmk/.nvm/versions/node/v12.18.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Apple/usr/bin:/Users/phytonmk/.nvm/versions/node/v12.18.1/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/phytonmk/.nvm/versions/node/v12.18.1/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:866:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1133:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
